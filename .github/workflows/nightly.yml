@@ -13,7 +13,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        path: main
+        path: htgdb-dat
 
     - name: Checkout HTGDB Repo
       uses: actions/checkout@v2
@@ -28,7 +28,7 @@ jobs:
       run: Expand-Archive -LiteralPath 'C:\sabretools.zip' -DestinationPath 'C:\sabretools'
       
     - name: Remove Existing Dats
-      run: Remove-Item "$env:GITHUB_WORKSPACE\main\dats\*" -Recurse -Force
+      run: Remove-Item "$env:GITHUB_WORKSPACE\htgdb-dat\dats\*" -Recurse -Force
       
     - name: Convert SMDBs
       run: C:\sabretools\SabreTools.exe -ud -ot=xml -out="$env:GITHUB_WORKSPACE\main\dats" -ef="item.status" "$env:GITHUB_WORKSPACE\htgdb\EverDrive Pack SMDBs\*"
