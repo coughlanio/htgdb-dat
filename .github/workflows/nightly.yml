@@ -27,6 +27,9 @@ jobs:
     - name: Extract SabreTools
       run: Expand-Archive -LiteralPath 'C:\sabretools.zip' -DestinationPath 'C:\sabretools'
       
+    - name: Print Workspace Structure
+      run: Tree $env:GITHUB_WORKSPACE /F | Select-Object -Skip 2
+      
     - name: Remove Existing Dats
       run: Remove-Item "$env:GITHUB_WORKSPACE\htgdb-dat\dats\*" -Recurse -Force
       
