@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>MiSTer TSConf Add-On</name>
+		<description>MiSTer TSConf Add-On</description>
+		<version></version>
+		<author></author>
+	</header>
+	<machine name="MiSTer Add On Packs">
+		<description>MiSTer Add On Packs</description>
+		<rom name="Games/TSConf/boot.vhd" size="" crc="96bb94d0" md5="9d204982b24d2e03d9f11020afa28838" sha1="fd41b49251ed51b1afccecaa99f5e33bff033e88" sha256="2407fa09698dcc2d969bbaec264b6f18017f9a925a3159b740cbaa6ac560709c" />
+	</machine>
+</datafile>

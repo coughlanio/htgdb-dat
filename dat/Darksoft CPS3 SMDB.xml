@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>Darksoft CPS3 SMDB</name>
+		<description>Darksoft CPS3 SMDB</description>
+		<version></version>
+		<author></author>
+	</header>
+	<machine name="Darksoft CPS-3">
+		<description>Darksoft CPS-3</description>
+		<rom name="SIMM 1-2/Custom SH2/SIMM1_Jumper_U9_CustomSH2.bin" size="" crc="082403c4" md5="1252a348a011f39f93d81567ee00d84b" sha1="b5d802b8f575b1c80e2e06cde2f6647de0835425" sha256="5a827f7416def72f2d9865acfe400d79479adf6ec1f5bf3c757700495a2b61c1" />
+		<rom name="SIMM 1-2/Custom SH2/SIMM1_Jumper_U10_CustomSH2.bin" size="" crc="2b4f161a" md5="ce4312aecaf7331fd42b32b06b3215c2" sha1="853c0eb552fcb47ca2609c4cd2a9e7acb8f4a84e" sha256="3f83d9362c0c05d12b9ee92de0c0d33cbe9eb4f107d3996c667bfeeb33a9b533" />
+		<rom name="SIMM 1-2/Custom SH2/SIMM2_Jumper_U9_CustomSH2.bin" size="" crc="0a76d5b3" md5="03c7c3c73f5e8252e71d7d3f24e274e7" sha1="d9baa0f58394b89bc958ebbd129f753023c9d99c" sha256="ebfa4841a2e4e6da765475f53195efe7f519b51a2cba96ece848975e727a494e" />
+		<rom name="SIMM 1-2/Custom SH2/SIMM2_Jumper_U10_CustomSH2.bin" size="" crc="6d5e2765" md5="c6a12926dd9bc49f23eed4e865a1d17f" sha1="1fb3f9735ac1ab788b08c1356cb6c33e374bf04b" sha256="3e57d6d1e243ca69ba35078703b74e96d9c5f4973110c045db688e395953fe1a" />
+		<rom name="SIMM 1-2/Standard SH2/SIMM1_Jumper_U9_StandardSH2.bin" size="" crc="395bf6da" md5="d27fa6c262ecc2013906321dad7465e8" sha1="886e3eb6dfcd723c49dea46983506389309c9c8f" sha256="0b962a924685d56e914f13874ba84a9ab8e977fcba178cb21b1f090f6e58cf5c" />
+		<rom name="SIMM 1-2/Standard SH2/SIMM1_Jumper_U10_StandardSH2.bin" size="" crc="6e40d74c" md5="ca238f0d05bd6a371bbad2ee13922f7e" sha1="e55819ab2bae139a0ff684c3fb65d4d9e1a5b5a8" sha256="9acc910f43c9d32940ae8c4f3dcc2165bc5aa09beb7f399c63a993e0dc0100fc" />
+		<rom name="SIMM 1-2/Standard SH2/SIMM2_Jumper_U9_StandardSH2.bin" size="" crc="ed0e87f5" md5="bbf3760c0006d08bff8c7691f923f93b" sha1="6facb5cf1e277976565a681a213cce8be51d044c" sha256="a32ea0e06ff62011dbf25e64977607df974ce48de716a31cbcdcf6c96eef82d8" />
+		<rom name="SIMM 1-2/Standard SH2/SIMM2_Jumper_U10_StandardSH2.bin" size="" crc="a149e9dd" md5="dd268e4f6769e101ac4a8b457a2e6a1e" sha1="5ab52a0cb201c754c6d011000211c5cdbcaf9945" sha256="5dbffe2d06ac531d6f21a7641e4ee8d5c49e1684dca465626d466366e881715d" />
+		<rom name="SIMM 3-6/SIMM3_Final.bin" size="" crc="ef3eb789" md5="36e716b34fcd1d3dcb43ef9447dad6e2" sha1="0503a6f1ce4c24093e553cbad9776893032700eb" sha256="0a56152380b67678df772d913d6a8d762aa44b0597145551c4af961cb034e8d3" />
+		<rom name="SIMM 3-6/SIMM4_Final.bin" size="" crc="54309771" md5="5803ca8d3fd0d8ce7636abbe6b81db4e" sha1="a3e05f2854780011f652d7d8a9ac8e756dd03e09" sha256="1aa6fd4558e24e013571e47bcbcf2494380634750f408ceb348cb8a9513fbf61" />
+		<rom name="SIMM 3-6/SIMM5_Final.bin" size="" crc="3fa411d4" md5="023e121015c37cc22c3d741d6b2f44db" sha1="66066483fffc7039a46a7fccbc80038e2e11b458" sha256="3dc3043a46a2b9b8f17d306e1b4c94e97a7480134634893b6d9ee4511eb6619e" />
+		<rom name="SIMM 3-6/SIMM6_Final.bin" size="" crc="ce96673a" md5="fcde14817d66c924434956b481f0aafc" sha1="002c48c61158c560958fef35c866174556771bc6" sha256="42802b1a47e901177d4ad2eb7e055eeb865a7a071f59ab1e6c88e508b24cb89a" />
+	</machine>
+</datafile>

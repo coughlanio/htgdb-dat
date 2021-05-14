@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>MiSTer MSX Add-On</name>
+		<description>MiSTer MSX Add-On</description>
+		<version></version>
+		<author></author>
+	</header>
+	<machine name="MiSTer Add On Packs">
+		<description>MiSTer Add On Packs</description>
+		<rom name="Games/MSX/boot.vhd" size="" crc="633477ee" md5="eb5cb5991d586abd965ba21c8c785ab9" sha1="cadbf234950bdb59dd8aa815910499791517d175" sha256="28b636c6a88eaaf63eb95828759d75ef25f11264def94cf740461935490395ac" />
+	</machine>
+</datafile>

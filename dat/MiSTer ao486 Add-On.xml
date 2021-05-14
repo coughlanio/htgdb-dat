@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+	<header>
+		<name>MiSTer ao486 Add-On</name>
+		<description>MiSTer ao486 Add-On</description>
+		<version></version>
+		<author></author>
+	</header>
+	<machine name="MiSTer Add On Packs">
+		<description>MiSTer Add On Packs</description>
+		<rom name="Games/ao486/Win95.vhd" size="" crc="edcb0319" md5="2531d363f1903a424ebcb16f7d2b300a" sha1="3a72feb09a7e7a73d8289cabd210ec10fe526bcc" sha256="cd4432b295f4b8c707d6448b59d07dc8377b2ae0ea68daa18e04290f1d2360fb" />
+	</machine>
+</datafile>
