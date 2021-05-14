@@ -22,4 +22,7 @@ jobs:
         path: htgdb
         
     - name: Download SabreTools
-      run: Invoke-WebRequest https://github.com/SabreTools/SabreTools/releases/download/1.1.1/SabreTools.v1.1.1.x86-64_net5.0.zip -OutFile "C:\sabretools.zip"
+      run: Invoke-WebRequest https://github.com/SabreTools/SabreTools/releases/download/1.1.1/SabreTools.v1.1.1.x86-64_net5.0.zip -OutFile 'C:\sabretools.zip'
+      
+    - name: Extract SabreTools
+      run: Expand-Archive -LiteralPath 'C:\sabretools.zip' -DestinationPath 'C:\sabretools'
