@@ -31,7 +31,7 @@ jobs:
       run: Tree $env:GITHUB_WORKSPACE /F | Select-Object -Skip 2
       
     - name: Remove Existing Dats
-      run: Remove-Item "$env:GITHUB_WORKSPACE\htgdb-dat\dats\*" -Recurse -Force
+      run: Remove-Item "$env:GITHUB_WORKSPACE\htgdb-dat\dat\*" -Recurse -Force
       
     - name: Convert SMDBs
       run: C:\sabretools\SabreTools.exe -ud -ot=xml -out="$env:GITHUB_WORKSPACE\main\dats" -ef="item.status" "$env:GITHUB_WORKSPACE\htgdb\EverDrive Pack SMDBs\*"
