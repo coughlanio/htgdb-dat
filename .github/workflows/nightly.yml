@@ -36,3 +36,9 @@ jobs:
     - name: Convert SMDBs
       run: C:\sabretools\SabreTools.exe -ud -ot=xml -out="$env:GITHUB_WORKSPACE\htgdb-dat\dat" -ef="item.status" "$env:GITHUB_WORKSPACE\htgdb\EverDrive Pack SMDBs\*"
       
+    - name: Commit Changes
+      run: |
+        git config --global user.name 'Chris Coughlan'
+        git config --global user.email 'chris@coughlan.io'
+        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" commit -am "Nightly Build"
+        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" push
