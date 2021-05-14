@@ -26,3 +26,6 @@ jobs:
       
     - name: Extract SabreTools
       run: Expand-Archive -LiteralPath 'C:\sabretools.zip' -DestinationPath 'C:\sabretools'
+      
+    - name: Convert SMDBs
+      run: C:\sabretools\SabreTools.exe -ud -ot=xml -out='$env:GITHUB_WORKSPACE\main\dats' -ef="item.status" '$env:GITHUB_WORKSPACE\htgdb\EverDrive Pack SMDBs\*'
