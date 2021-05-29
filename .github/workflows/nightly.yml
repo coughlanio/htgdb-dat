@@ -22,21 +22,21 @@ jobs:
         path: htgdb
         
     - name: Download SabreTools
-      run: Invoke-WebRequest https://github.com/SabreTools/SabreTools/releases/download/1.1.1/SabreTools.v1.1.1.x86-64_net5.0.zip -OutFile 'C:\sabretools.zip'
+      run: Invoke-WebRequest https://ci.appveyor.com/api/projects/mnadareski/sabretools/artifacts/SabreTools%2Fbin%2FDebug%2FSabreTools_net5.0.zip -OutFile 'C:\sabretools.zip'
       
     - name: Extract SabreTools
       run: Expand-Archive -LiteralPath 'C:\sabretools.zip' -DestinationPath 'C:\sabretools'
-      
+
     - name: Remove Existing Dats
       run: Remove-Item "$env:GITHUB_WORKSPACE\htgdb-dat\dat\*" -Recurse -Force
       
     - name: Convert SMDBs
-      run: C:\sabretools\SabreTools.exe -ud -ot=xml -out="$env:GITHUB_WORKSPACE\htgdb-dat\dat" -ef="item.status" "$env:GITHUB_WORKSPACE\htgdb\EverDrive Pack SMDBs\*"
+      run: C:\sabretools\net5.0\SabreTools.exe -ud -ot=xml -out="$env:GITHUB_WORKSPACE\htgdb-dat\dat" -ef="item.status" "$env:GITHUB_WORKSPACE\htgdb\EverDrive Pack SMDBs\*"
       
     - name: Commit Changes
       run: |
         $date = Get-Date -format "yyyyMMdd"
         git config --global user.name 'Chris Coughlan'
         git config --global user.email 'chris@coughlan.io'
-        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" commit -am "Nightly Build - $date"
+        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" commit -am "nightly - $date"
         git -C "$env:GITHUB_WORKSPACE\htgdb-dat" push
