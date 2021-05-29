@@ -27,9 +27,6 @@ jobs:
     - name: Extract SabreTools
       run: Expand-Archive -LiteralPath 'C:\sabretools.zip' -DestinationPath 'C:\sabretools'
       
-    - name: Print Workspace Structure
-      run: Tree $env:GITHUB_WORKSPACE /F | Select-Object -Skip 2
-      
     - name: Remove Existing Dats
       run: Remove-Item "$env:GITHUB_WORKSPACE\htgdb-dat\dat\*" -Recurse -Force
       
@@ -40,6 +37,5 @@ jobs:
       run: |
         git config --global user.name 'Chris Coughlan'
         git config --global user.email 'chris@coughlan.io'
-        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" status
         git -C "$env:GITHUB_WORKSPACE\htgdb-dat" commit -am "Nightly Build"
         git -C "$env:GITHUB_WORKSPACE\htgdb-dat" push
