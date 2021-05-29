@@ -40,6 +40,6 @@ jobs:
       run: |
         git config --global user.name 'Chris Coughlan'
         git config --global user.email 'chris@coughlan.io'
-        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" diff
+        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" status
         git -C "$env:GITHUB_WORKSPACE\htgdb-dat" commit -am "Nightly Build"
         git -C "$env:GITHUB_WORKSPACE\htgdb-dat" push
