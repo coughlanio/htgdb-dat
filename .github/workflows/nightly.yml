@@ -35,7 +35,8 @@ jobs:
       
     - name: Commit Changes
       run: |
+        $date = Get-Date -format "yyyyMMdd"
         git config --global user.name 'Chris Coughlan'
         git config --global user.email 'chris@coughlan.io'
-        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" commit -am "Nightly Build"
+        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" commit -am "Nightly Build - $date"
         git -C "$env:GITHUB_WORKSPACE\htgdb-dat" push
