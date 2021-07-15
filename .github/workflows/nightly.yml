@@ -20,12 +20,9 @@ jobs:
       with:
         repository: frederic-mahe/Hardware-Target-Game-Database
         path: htgdb
-        
-    - name: Download SabreTools
-      run: Invoke-WebRequest https://ci.appveyor.com/api/projects/mnadareski/sabretools/artifacts/SabreTools%2Fbin%2FDebug%2FSabreTools_net5.0.zip -OutFile 'C:\sabretools.zip'
-      
+
     - name: Extract SabreTools
-      run: Expand-Archive -LiteralPath 'C:\sabretools.zip' -DestinationPath 'C:\sabretools'
+      run: Expand-Archive -LiteralPath "$env:GITHUB_WORKSPACE\htgdb-dat\files\sabretools.zip" -DestinationPath 'C:\sabretools'
 
     - name: Remove Existing Dats
       run: Remove-Item "$env:GITHUB_WORKSPACE\htgdb-dat\dat\*" -Recurse -Force
