@@ -35,5 +35,6 @@ jobs:
         $date = Get-Date -format "yyyyMMdd"
         git config --global user.name 'Chris Coughlan'
         git config --global user.email 'chris@coughlan.io'
-        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" commit -am "nightly - $date"
+        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" add .
+        git -C "$env:GITHUB_WORKSPACE\htgdb-dat" commit -m "nightly - $date"
         git -C "$env:GITHUB_WORKSPACE\htgdb-dat" push
