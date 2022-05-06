@@ -275,7 +275,6 @@
 		<rom name="4 Homebrew &amp; Hacks/Doom 32X Hacks/Doom 32X - Delta Edition - Episode 3 (Japan, USA) (Hack) v2.0 Roebloz.32x" size="4194304" crc="4f217a3e" md5="441dffadaf40669d67562dbe6229bb8c" sha1="b4520008965e46f740beedd48850733105dceef9" sha256="3eeee5b8d6e829054790aa5071494b279898e0cfcd2dc203292f0ad512f1f8ad" />
 		<rom name="4 Homebrew &amp; Hacks/Doom 32X Hacks/Doom 32X - Delta Edition - Episode 4 (Japan, USA) (Hack) v2.0 Roebloz.32x" size="4194304" crc="aa756b04" md5="f0e0233f845348c70abd696da1720cd8" sha1="8ac5fd084d9f78c60b4dc8703b5027dd9289ca08" sha256="784d5c66ac732a6b9057f7ea1bd3e2bb1c4bf893c3f875e3ef91ccd12203402a" />
 		<rom name="4 Homebrew &amp; Hacks/Doom 32X Hacks/Doom 32X - Delta Edition - Episode 5 (Japan, USA) (Hack) v2.0 Roebloz.32x" size="4194304" crc="e47779e5" md5="f891f45238cf4a8a0956196d665612b8" sha1="b0cea0cee52ff09892fe2d0483c68a05d849a5f0" sha256="32795b236c9665b838ba4d0fd5576bbc4fe88a1a5274338d1955c2089ec05a0c" />
-		<rom name="4 Homebrew &amp; Hacks/Doom 32X Hacks/Doom 32X Resurrection (Europe, Japan, USA) (Hack) v1.5 D32XR Team.32x" size="4194304" crc="e61fbc6c" md5="2c0cbd2014af80ffcc41487b2c8300cd" sha1="febaf8150b4d19dab4c109ca959cb9c46575e267" sha256="47196047a6ed406a262f40c270ef7fcee43162173939bb1706da0cdaa4940afc" />
 		<rom name="4 Homebrew &amp; Hacks/Doom 32X Hacks/Doom 32X Thy Flesh Consumed (Japan, USA) (Hack) v1.1 Roebloz.32x" size="4194304" crc="9600aa00" md5="4bd85650b7b2862ea52eb3f77b1539c5" sha1="14adc7aa4868c8774088a9fe6ed59accbd3daae6" sha256="fe5ccfcfe8e89942890ef1f1242657b026007f37f71af1c343bf0caf99c01dc6" />
 		<rom name="4 Homebrew &amp; Hacks/Doom 32X Hacks/Doom 64 32X (Hack) MarphitimusBlackimus.32x" size="3145728" crc="0e422941" md5="919dd6eabd74db2550c4b0c2ff178037" sha1="91f9edd59590909fde89dd364d398fe9ee19c674" sha256="a81ddf3084c1f2f1f19b6ba2dfe206449718e22464982ad4df3d7d8a984e840d" />
 		<rom name="4 Homebrew &amp; Hacks/Doom 32X Hacks/Doom Spinball (USA) (Hack) v1.0 Saxman.32x" size="3145728" crc="3679a6ef" md5="e46b8788849a5dc3d4172123013b3c52" sha1="391081ad496d9b54373cc617a2e8aa017fdb3f05" sha256="081915ccd4e7fd84806065e046af4e983f37931c1fc16e8d050fd0edba507f54" />
@@ -285,5 +284,9 @@
 		<rom name="5 Tools &amp; Service Test Carts/BIOS/[BIOS] 32X M68000 (USA).bin" size="256" crc="5c12eae8" md5="6a5433f6a132a2b683635819a6dcf085" sha1="dbebd76a448447cb6e524ac3cb0fd19fc065d944" sha256="a2d6b6e1544467e27d404634de6e6b0a54ed4b3babb6b71739a260e1be04ebfc" />
 		<rom name="5 Tools &amp; Service Test Carts/BIOS/[BIOS] 32X SH-2 Master (USA).bin" size="2048" crc="dd9c46b8" md5="f88354ec482be09aeccd76a97bb75868" sha1="1e5b0b2441a4979b6966d942b20cc76c413b8c5e" sha256="4c6128229bd24dae5f11d3f569ca592665f141bef26cef937e2ce4d9b548cc3b" />
 		<rom name="5 Tools &amp; Service Test Carts/BIOS/[BIOS] 32X SH-2 Slave (USA).bin" size="1024" crc="bfda1fe5" md5="7f041b6a55cd7423a6c08a219335269e" sha1="4103668c1bbd66c5e24558e73d4f3f92061a109a" sha256="7bde4245ce00c51a23a1ce73a881752e7b14dc12416e175352a3807338e04745" />
+	</machine>
+	<machine name="Mega EverDrive">
+		<description>Mega EverDrive</description>
+		<rom name="3 Sega 32X/4 Homebrew &amp; Hacks/Doom 32X Hacks/Doom 32X Resurrection (Europe, Japan, USA) (Hack) v2.0 D32XR Team.32x" size="4194304" crc="2caabeb4" md5="c59491b612e7f945235893959dd37f4d" sha1="570265e764982fde7148f4b6be28820647e4ae13" sha256="b3367f0994c3acd1963dd97d99a3927f86731b2826996650f6e1a5fd7d2be6ea" />
 	</machine>
 </datafile>
